@@ -106,8 +106,7 @@ Invoke-WebRequest -Uri "$apiUrl/auth/register" `
 ```
 
 
-
-![alt text](image-1.png)
+<img width="974" height="772" alt="image" src="https://github.com/user-attachments/assets/55ef016d-00d2-40d5-b8cd-b083f1929e04" />
 
 
 ---
@@ -122,7 +121,8 @@ Invoke-WebRequest -Uri "$apiUrl/auth/register" `
     -Body $registerBody
 ```
 
-![alt text](image-2.png)
+<img width="974" height="106" alt="image" src="https://github.com/user-attachments/assets/346a4ca3-dd24-4941-a3d1-f30e0f7b4b02" />
+
 
 ---
 
@@ -141,7 +141,8 @@ Invoke-WebRequest -Uri "$apiUrl/auth/login" `
     -Body $loginBody
 ```
 
-![alt text](image-3.png)
+<img width="974" height="221" alt="image" src="https://github.com/user-attachments/assets/c43cc320-6bdb-4b93-a37c-a81e4849d5c2" />
+
 
 ---
 
@@ -161,7 +162,8 @@ Invoke-WebRequest -Uri "$apiUrl/auth/login" `
     -ErrorAction SilentlyContinue
 ```
 
-![alt text](image-4.png)
+
+<img width="974" height="264" alt="image" src="https://github.com/user-attachments/assets/419ec978-e566-48d1-a8c0-3a2f9c3f5f66" />
 
 
 ---
@@ -182,7 +184,8 @@ Invoke-WebRequest -Uri "$apiUrl/auth/register" `
     -ErrorAction SilentlyContinue
 ```
 
-![alt text](image-6.png)
+<img width="974" height="286" alt="image" src="https://github.com/user-attachments/assets/83803568-91d0-46f7-b524-648575e8d5c6" />
+
 
 ---
 
@@ -202,9 +205,10 @@ Invoke-WebRequest -Uri "$apiUrl/auth/register" `
     -ErrorAction SilentlyContinue
 ```
 
+<img width="974" height="420" alt="image" src="https://github.com/user-attachments/assets/aab2e1cb-9108-46da-9ebc-ea7ed5a554e0" />
 
 ---
-![alt text](image-5.png)
+
 
 ## Docker конфигурация
 
