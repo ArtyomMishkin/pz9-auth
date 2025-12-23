@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: pz9-postgres
+    environment:
+      POSTGRES_USER: pz9user
+      POSTGRES_PASSWORD: pz9pass
+      POSTGRES_DB: pz9
+    ports:
+      - "5432:5432"
+    volumes:
+      - pz9_pg_data:/var/lib/postgresql/data
+
+volumes:
+  pz9_pg_data:
